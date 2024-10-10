@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import { UserProvider } from './Pages/userContext';
 import Header from './Components/header';
 import Home from './Components/Home';
@@ -12,7 +12,8 @@ const App = () => {
             <Router>
                 <Header />
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/" element={<Navigate to="/home"/>}/>
+                    <Route path="/home" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/profile" element={<UserProfile />} />
                 </Routes>

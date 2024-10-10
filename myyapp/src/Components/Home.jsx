@@ -1,7 +1,8 @@
 import React from 'react';
 
+
 const Home = () => {
-    return <h1>Welcome To SA's School Boy Rugby Dream Team!</h1>;
+    return <div class="rugby"><h1 class="title">DreamTeam!</h1></div>
 };
 
 export default Home;

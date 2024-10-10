@@ -7,7 +7,103 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  background-color: gray;
 }
+
+nav a {
+  text-decoration: white;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  padding-right: 30px;
+}
+
+nav a:hover {
+  color: rgba(67, 247, 31, 0.795);
+}
+
+
+.rugby {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.0)), url(../landing.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: solid;
+  font-size: 100px;
+  font-weight: 900;
+}
+
+.About {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.0)), url(../HomePage.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.info-div {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  font-size: 220 px;
+  font-weight: 500;
+  color: orangered;
+  top: 80px;
+}
+
+.About p {
+  display: flex;
+  width: 1000px;
+  color: rgb(160, 60, 24);
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.Profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../userpro.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Pinfo {
+  margin-top: 80;
+  position: relative;
+  color: rgb(238, 212, 173);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.pro-head {
+  position: absolute;
+  top: 60px;
+  color: rgb(66, 201, 122);
+  font-size: xxx-large;
+  text-decoration: underline;
+}
+
